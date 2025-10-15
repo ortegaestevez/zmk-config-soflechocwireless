@@ -296,11 +296,11 @@
             //             | GUI | ALT  |SHIFT |LOWER |  SPC   |  | ENTER |RAISE | BKSPC | SHIFT | ALT  |
 
             bindings = <
-&kp GRAVE         &kp N1  &kp N2        &kp N3    &kp N4          &kp N5                                                               &kp N6     &kp N7         &kp N8         &kp N9           &kp N0    &kp EQUAL
-&kp TAB           &kp Q   &kp W         &kp E     &kp R           &kp T                                                                &kp Y      &kp U          &kp I          &kp O            &kp P     &kp MINUS
-&kp ESCAPE        &kp A   &kp S         &kp D     &kp F           &kp G                                                                &kp H      &kp J          &kp K          &kp L            &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z   &kp X         &kp C     &kp V           &kp B      &mt C_VOLUME_DOWN K_MUTE    &mt C_VOLUME_UP K_PLAY_PAUSE  &kp N      &kp M          &kp COMMA      &kp DOT          &kp FSLH  &kp RIGHT_CONTROL
-                          &kp LEFT_GUI  &kp LALT  &kp LEFT_SHIFT  &mo LOWER  &kp SPACE                   &kp RET                       &mo RAISE  &kp BACKSPACE  &kp RIGHT_ALT  &kp RIGHT_SHIFT
+&kp GRAVE         &kp N1  &kp N2        &kp N3        &kp N4          &kp N5                                                               &kp N6     &kp N7         &kp N8           &kp N9         &kp N0    &kp EQUAL
+&kp TAB           &kp Q   &kp W         &kp E         &kp R           &kp T                                                                &kp Y      &kp U          &kp I            &kp O          &kp P     &kp MINUS
+&kp ESCAPE        &kp A   &kp S         &kp D         &kp F           &kp G                                                                &kp H      &kp J          &kp K            &kp L          &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z   &kp X         &kp C         &kp V           &kp B      &mt C_VOLUME_DOWN K_MUTE    &mt C_VOLUME_UP K_PLAY_PAUSE  &kp N      &kp M          &kp COMMA        &kp DOT        &kp FSLH  &kp RIGHT_CONTROL
+                          &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &mo LOWER  &kp SPACE                   &kp RET                       &mo RAISE  &kp BACKSPACE  &kp RIGHT_SHIFT  &kp RIGHT_ALT
             >;
 
             sensor-bindings =
