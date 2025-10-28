@@ -44,9 +44,9 @@
 
             bindings = <
 &kp RA(NUMBER_1)  &kp F1            &kp F2             &kp F3          &kp F4           &kp F5                           &kp F6             &kp F7              &kp F8                     &kp F9                &kp F10                &kp F11
-&kp EXCLAMATION   &kp RA(TILDE)     &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT                      &kp RA(RS(CARET))  &kp AMPERSAND       &kp ASTERISK               &kp PIPE              &kp BACKSLASH          &kp F12
-&kp RA(SLASH)     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON                    &kp EQUAL          &kp RA(APOSTROPHE)  &kp LS(RA(DOUBLE_QUOTES))  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans            &kp QUESTION      &trans             &trans          &trans           &trans         &trans    &trans  &kp PLUS           &kp LESS_THAN       &kp GREATER_THAN           &trans                &trans                 &trans
+&kp EXCLAMATION   &kp RA(TILDE)     &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT                      &kp RA(RS(CARET))  &kp AMPERSAND       &kp ASTERISK               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
+&kp RA(SLASH)     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON                    &kp EQUAL          &kp RA(APOSTROPHE)  &kp LS(RA(DOUBLE_QUOTES))  &kp PIPE              &kp BACKSLASH          &trans
+&trans            &kp QUESTION      &trans             &trans          &trans           &trans         &trans    &trans  &kp PLUS           &trans              &trans                     &trans                &trans                 &trans
                                     &trans             &trans          &trans           &trans         &trans    &trans  &trans             &trans              &trans                     &trans
             >;
 
