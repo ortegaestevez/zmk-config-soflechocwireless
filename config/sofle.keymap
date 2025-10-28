@@ -43,11 +43,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp RA(NUMBER_1)  &kp F1            &kp F2             &kp F3          &kp F4           &kp F5                           &kp F6             &kp F7              &kp F8                     &kp F9                &kp F10                &kp F11
-&kp EXCLAMATION   &kp RA(TILDE)     &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT                      &kp RA(RS(CARET))  &kp AMPERSAND       &kp ASTERISK               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
-&kp RA(SLASH)     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON                    &kp EQUAL          &kp RA(APOSTROPHE)  &kp LS(RA(DOUBLE_QUOTES))  &kp PIPE              &kp BACKSLASH          &trans
-&trans            &kp QUESTION      &trans             &trans          &trans           &trans         &trans    &trans  &kp PLUS           &trans              &trans                     &trans                &trans                 &trans
-                                    &trans             &trans          &trans           &trans         &trans    &trans  &trans             &trans              &trans                     &trans
+&kp RA(TILDE)     &kp F1        &kp F2            &kp F3                 &kp F4          &kp F5                             &kp F6             &kp F7              &kp F8                     &kp F9                &kp F10                &kp F11
+&kp RA(NUMBER_1)  &kp EXCL      &kp AT_SIGN       &kp HASH               &kp DOLLAR      &kp PERCENT                        &kp RA(RS(CARET))  &kp AMPERSAND       &kp ASTERISK               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
+&kp RA(SLASH)     &kp QUESTION  &kp LEFT_BRACKET  &kp LS(RIGHT_BRACKET)  &kp LEFT_BRACE  &kp RIGHT_BRACE                    &kp RA(GRAVE)      &kp RA(APOSTROPHE)  &kp LS(RA(DOUBLE_QUOTES))  &kp PIPE              &kp BACKSLASH          &trans
+&trans            &trans        &trans            &trans                 &trans          &trans           &trans    &trans  &trans             &trans              &trans                     &trans                &trans                 &trans
+                                &trans            &trans                 &trans          &trans           &trans    &trans  &trans             &trans              &trans                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
