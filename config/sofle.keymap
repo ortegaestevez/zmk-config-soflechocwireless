@@ -47,7 +47,7 @@
 &kp RA(NUMBER_1)  &kp EXCL          &kp AT_SIGN        &kp HASH              &kp DOLLAR             &kp PERCENT                    &kp RA(RS(CARET))  &kp AMPERSAND          &kp ASTERISK  &trans         &kp DEL        &kp F12
 &kp RA(SLASH)     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                         &kp PIPE           &kp RA(DOUBLE_QUOTES)  &trans        &kp RA(GRAVE)  &trans         &kp RA(APOS)
 &trans            &trans            &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans       &trans    &trans  &kp RA(N)          &trans                 &trans        &trans         &kp BACKSLASH  &trans
-                                    &trans             &trans                &trans                 &trans       &trans    &trans  &trans             &trans                 &trans        &trans
+                                    &trans             &trans                &trans                 &trans       &trans    &trans  &trans             &trans                 &trans        &kp LEFT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
